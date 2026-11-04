@@ -160,16 +160,16 @@ Testes manuais executados por mim, a partir dos casos definidos na especificaç�
 
 | ID | Cenário | Resultado |
 |---|---|---|
-| CT01 | Cadastro de treino de boxe | [ ] |
-| CT02 | Validação de campos condicionais (jiu-jitsu sem rounds) | [ ] |
-| CT03 | Persistência após recarregar a página | [ ] |
-| CT04 | Edição de treino e recálculo do resumo | [ ] |
-| CT05 | Exclusão com confirmação (cancelar e confirmar) | [ ] |
-| CT06 | Filtro por modalidade | [ ] |
-| CT07 | Resumo considera só a semana atual | [ ] |
-| CT08 | Tela vazia sem treinos | [ ] |
-| CT09 | Bloqueio de data futura | [ ] |
-| CT10 | Bloqueio de duração 0 e 721 minutos | [ ] |
+| CT01 | Cadastro de treino de boxe | [Passou] |
+| CT02 | Validação de campos condicionais (jiu-jitsu sem rounds) | [Passou] |
+| CT03 | Persistência após recarregar a página | [Passou] |
+| CT04 | Edição de treino e recálculo do resumo | [Passou] |
+| CT05 | Exclusão com confirmação (cancelar e confirmar) | [Passou] |
+| CT06 | Filtro por modalidade | [Passou] |
+| CT07 | Resumo considera só a semana atual | [Passou] |
+| CT08 | Tela vazia sem treinos | [Passou] |
+| CT09 | Bloqueio de data futura | [Passou] |
+| CT10 | Bloqueio de duração 0 e 721 minutos | [Passou] |
 
 ## Tecnologias
 
