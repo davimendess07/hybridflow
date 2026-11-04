@@ -1,0 +1,7 @@
+{
+  "name": "HybridFlow",
+  "description": "Registro e acompanhamento unificado de treinos para atletas híbridos: boxe, jiu-jitsu, corrida e musculação.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
