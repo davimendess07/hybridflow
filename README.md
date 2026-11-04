@@ -135,18 +135,21 @@ Antes de finalizar, confira se todos os requisitos funcionais, regras de negóci
 
 ```
 src/
+├── main.tsx               # ponto de entrada: o React inicia a aplicação
+├── App.tsx                # componente principal: junta os demais e controla o estado
+├── index.css              # estilos globais e Tailwind
 ├── types/workout.ts       # tipos de dados das modalidades e do resumo semanal
 ├── utils/validation.ts    # regras de negócio e validações
 ├── utils/dates.ts         # cálculo da semana atual e formatação de datas
 ├── services/storage.ts    # leitura e gravação no localStorage
 └── components/            # componentes de interface
-    ├── Header
-    ├── WeeklySummary
-    ├── WorkoutFilter
-    ├── WorkoutCard
-    ├── WorkoutFormModal
-    ├── DeleteConfirmModal
-    └── VerificationTestModal
+    ├── Header.tsx
+    ├── WeeklySummary.tsx
+    ├── WorkoutFilter.tsx
+    ├── WorkoutCard.tsx
+    ├── WorkoutFormModal.tsx
+    ├── DeleteConfirmModal.tsx
+    └── VerificationTestModal.tsx
 ```
 **Componentização:** a interface foi dividida em componentes independentes dentro de `components/`. Cada componente cuida de uma parte da tela. O `WorkoutCard`, por exemplo, é escrito uma vez e reutilizado para exibir cada treino da lista.
 
